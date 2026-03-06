@@ -24,6 +24,7 @@ public class Main {
                 System.out.println(hrac);
             SumGoalu += hrac.getGoly();
         }
+        System.out.println("Soucet golu v tymu: " + SumGoalu);
         System.out.println("**************************************");
 //        maxGolu = hraci.stream().max(Comparator.comparing(Hrac::getGoly)).get();
 //        System.out.println(maxGolu);
