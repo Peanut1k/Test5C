@@ -10,9 +10,9 @@ public class Main {
 
         for (int i = 0; i < text.length(); i++) {
             char a = text.charAt(i);
-            System.out.println(text.charAt(i) + ": " + (int)a);
+            System.out.print(text.charAt(i) + ": " + (int)a + "; ");
             sum+=a;
         }
-        System.out.println("Soucet: "+sum);
+        System.out.println("\nSoucet: "+sum);
     }
 }
